@@ -18,9 +18,7 @@ The crew are expecting to be told:
 
 ## Plan
 
-THURSDAY
-
-- Install the dependencies/dev:
+- Install the dependencies/set up file structure:
 
 -- vitest
 -- package.json
@@ -33,15 +31,20 @@ THURSDAY
 - could we incorporate TDD to help plan the way forward?
 - create a few mvps on way to solution.
 - complete plan for how to achieve those mvps individually.
-
-FRIDAY
-
 - set up skeleton test.
-- review plan for mvps.
 - ensure tests cover boundary value analysis.
 - put this into practice.
+- come back to review and add stretch goals if required
+
 - hold regular checkpoints with the team to check on progress.
-- commit each hour or after a relevant feature/test has been implemented.
+- commit each hour with progress or after a relevant feature/test has been implemented.
+
+STRETCH
+
+- could the depth sensor be sensing in feet and need conversion to metres?
+- put the instructions through AI to see if it can solve/come up with feedback to improve it
+- put in variables rather than explicit values to the tests
+- fill out with own code, then try in alternate ways to see if it can be manually broken
 
 THEME/PROBLEM
 

@@ -15,16 +15,5 @@ The crew are expecting to be told:
 "depth sensor is broken" if the depth sensor tells them anything else. */
 
 export default function depthCheck(metres) {
-  if (metres === 20) {
-    return 'submarine is surfaced';
-  }
-  if (metres > 20 && metres <= 40) {
-    return 'submarine is dived at periscope depth';
-  }
-  if (metres > 40 && metres <= 100) {
-    return 'submarine is dived';
-  }
-  if (metres > 100 && metres <= 500) {
-    return 'submarine is deep dived';
-  } else return 'depth sensor is broken';
+  // code here
 }
