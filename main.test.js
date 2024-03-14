@@ -12,7 +12,7 @@ test('at 20, submarine on surface', () => {
 test('below 20, submarine dived outside of PD', () => {
   expect(depthCheck(74)).toBe('submarine is dived');
 });
-test('below 20, submarine dived outside of PD, BVA', () => {
+test('below 20, submarine dived outside of PD, boundary value analysis', () => {
   expect(depthCheck(100)).toBe('submarine is dived');
 });
 
