@@ -25,7 +25,10 @@ test('below 20, submarine dived, within PD', () => {
 });
 
 // Below 100m until 500m, tell the crew "submarine is deep dived".
-test('below 100, submarine at deep dive conditions', () => {
+test('below 100, submarine at deep dive conditions, lower boundary', () => {
+  expect(depthCheck(101)).toBe('submarine is deep dived');
+});
+test('below 100, submarine at deep dive conditions, upper boundary', () => {
   expect(depthCheck(500)).toBe('submarine is deep dived');
 });
 
@@ -39,6 +42,6 @@ test('invalid input - negative number', () => {
 test('invalid input - floating above the surface', () => {
   expect(depthCheck(3)).toBe('depth sensor is broken');
 });
-test('invalid input - >500', () => {
+test('invalid input - > 500m', () => {
   expect(depthCheck(501)).toBe('depth sensor is broken');
 });
