@@ -1,0 +1,22 @@
+<mxfile host="65bd71144e">
+    <diagram id="t0s1odw_he6nSF_8H_vn" name="Page-1">
+        <mxGraphModel dx="445" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="DREAMER&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="170" width="160" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="REALIST&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="170" width="160" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="CRITIC&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="170" width="160" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Theme:&lt;br&gt;Submarine based. Simple logic for working out where the boat is based on depth data.&lt;br&gt;If the depth sensor is located on the keel (the bottom) and the height of the submarine is 20m, return the location of the boat as a string (e.g. at 20m, &quot;on the surface&quot;, at 100m, &quot;underwater&quot;)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="60" width="500" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
