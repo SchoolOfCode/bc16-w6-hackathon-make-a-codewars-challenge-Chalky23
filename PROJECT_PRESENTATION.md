@@ -6,7 +6,7 @@ The Navy of Atlantis needs your help! The depth checking software for their subm
 
 The depth sensor for each submarine is on the keel (the bottom) of the boat. The distance from bottom to top of the boat is 20m. Help the crew of the submarine understand where they are based on the input of data from the depth sensor.
 
-The input to depthCheck is the distance in metres from the surface of the water. Output a string which satisfies the following:
+The input to depthCheck is the distance in metres from the surface of the water. Output a string (lower case, no punctuation) which satisfies the following:
 
 The crew are expecting to be told:
 
